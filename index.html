@@ -41,6 +41,8 @@
       <a class="tab tab-active">Music</a>
       <a class="tab">Comedy</a>
       <a class="tab">Drawing</a> -->
+      <!-- <a id="no-Data" class="tab">Drawing</a> -->
+      <!-- <img class="disabled:" id="no-Data" src="images/Icon.png" alt="" /> -->
     </div>
 
     <!-- card section -->
@@ -83,24 +85,24 @@
       </div>
     </section>
 
-    <div class="container mx-auto">
+    <div id="blogContent" style="display: none" class="container mx-auto">
       <div>
         <h2 class="text-xl font-bold">The scope of var, let, and const</h2>
         <br />
         <p>
-          Just like let, const declarations are hoisted to the top but are not
-          initialized. <br />So just in case you missed the differences, here
-          they are:
+          Although var, let, and const may seem similar but are different in
+          functionalities, here they are:
         </p>
         <br />
         <li>
-          var declarations are globally scoped or function scoped while let and
-          const are block scoped.
+          var declarations are globally scoped whereas let and const are block
+          scoped.
         </li>
         <li>
-          var variables can be updated and re-declared within its scope; let
-          variables can be updated but not re-declared; const variables can
-          neither be updated nor re-declared.
+          var variables can be updated and re-declared.
+          <br />
+          In case of, let the variables can be updated but not re-declared
+          whereas const variables can neither be updated nor re-declared.
         </li>
         <li>
           They are all hoisted to the top of their scope. But while var
